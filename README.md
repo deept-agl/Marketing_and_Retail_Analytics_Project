@@ -4,55 +4,65 @@ This project analyzes customer behavior and product purchase patterns for retail
 
 ---
 
+## 🔗 Tableau Public Dashboards
+
+### **Milestone 1 — Customer Segmentation (RFM) Dashboard**  
+👉 https://public.tableau.com/app/profile/deepti.agrawal2022/viz/MRAMIL-1deepti/Story1?publish=yes  
+
+### **Milestone 2 — Market Basket Analysis (MBA) Dashboard**  
+👉 https://public.tableau.com/app/profile/deepti.agrawal2022/viz/MRAMIL-2DEEPTI/Story1?publish=yes  
+
+---
+
 ## 🚀 Project Overview
 
-Two datasets from an automobile parts company and a grocery store are analyzed across:
+Two datasets from an automobile parts company and a grocery store are analyzed:
 
 ### **Milestone 1 — RFM Customer Segmentation**
 Dataset of **2,747 transactions** containing customer, product, pricing, and sales information.  
 Objectives:
-- Explore trends in sales (weekly, monthly, quarterly, yearly)
+- Explore sales trends (weekly, monthly, quarterly, yearly)
 - Identify best customers, loyal buyers, lost customers, and churn-risk groups
-- Use **RFM (Recency, Frequency, Monetary)** analysis for segmentation
-- Visualize patterns using **Tableau**
-- Build segmentation workflow using **KNIME**
+- Compute **RFM (Recency, Frequency, Monetary)** scores for segmentation
+- Build a segmentation workflow using **KNIME**
+- Create insights dashboards using **Tableau**
 
 ### **Milestone 2 — Market Basket Analysis**
 Dataset of **20,641 grocery transactions** with product and order details.  
 Objectives:
-- Identify frequently bought-together products
-- Build association rules using **Support**, **Confidence**, and **Lift**
-- Recommend the best combos for bundled offers
-- Provide actionable insights to improve sales and customer engagement
+- Identify frequently bought‐together products
+- Use **Support**, **Confidence**, and **Lift** to build association rules
+- Recommend high-impact product bundles
+- Provide insights to improve sales and customer engagement
 
 ---
 
 ## 📊 Key Insights
 
 ### **From RFM Segmentation**
-- *Best Customers*: Very high RFM scores (e.g., Euro Shopping Channel, Anna’s Decorations)
-- *Lost Customers*: Very low RFM scores (e.g., Auto-Moto Classics Inc.)
-- *Customers at Risk*: Medium–low recency scores indicating possible churn
-- *Top Performing Cities*: Madrid (Spain) leads in total sales
-- *Top Product Line*: Classic Cars generates maximum revenue
+- **Best Customers:** High RFM scores (e.g., Euro Shopping Channel, Anna’s Decorations)  
+- **Lost Customers:** Very low RFM scores (e.g., Auto-Moto Classics Inc.)  
+- **At-Risk Customers:** Medium–low recency scores  
+- **Top Cities:** Madrid (Spain) leads in total sales  
+- **Best Product Line:** Classic Cars generates maximum revenue  
 
 ### **From Market Basket Analysis**
-Strong association rules identified:
+Top association rules include:
 - Poultry + Dinner Rolls  
 - Eggs + Soda  
 - Poultry + Yoghurt + Milk + Cheese  
 - Sandwich Bags + Tortillas  
 - Detergent + Mixes  
 
-These combos show high support, confidence, and lift, making them ideal for bundle offers and promotions.
+These combinations have high lift and confidence → ideal for bundling strategies.
 
 ---
 
 ## 🛠️ Tools & Techniques
 
 - **KNIME** (RFM workflow & association rule mining)  
-- **Tableau** (visual trends & dashboards)  
-- **Python / Pandas** (data exploration)  
+- **Tableau** (trend dashboards & segmentation visuals)  
+- **Python / Pandas** (data cleaning & exploration)  
 - RFM scoring  
 - Apriori algorithm  
 - Support, Confidence, Lift-based ranking  
@@ -61,11 +71,12 @@ These combos show high support, confidence, and lift, making them ideal for bund
 
 ## 🧠 Business Recommendations
 
-- Offer bundled promotions using top-performing combos  
-- Target “lost” and “at-risk” customers with personalized offers  
-- Promote high-margin product lines like Classic Cars  
-- Increase marketing in top-performing cities (e.g., Madrid)  
-- Use RFM segments to tailor loyalty programs  
+- Offer bundled promotions using strong MBA rules  
+- Target *lost* and *at-risk* customers with retention offers  
+- Promote high-margin product lines such as Classic Cars  
+- Expand marketing effort in top-performing cities (e.g., Madrid)  
+- Develop loyalty programs based on RFM segments  
 
+---
 
-⭐ *Star the repo if you found this project helpful!*
+⭐ **If you found this project helpful, please star the repo!**
